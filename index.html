@@ -1,175 +1,328 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Portfolio website</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<head>
+		<title>Portfolio website</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-</head>
-<body>
-	<!----hero Section start---->
+	</head>
+	<body>
+		<!----topic Section start---->
 
-	<div class="hero">
-		<nav>
-			<h2 class="logo">Portfo<span>lio</span></h2>
-			<ul>
-				<li><a href="#content">Home</a></li>
-				<li><a href="#about">About Me</a></li>
-				<li><a href="#project">Project</a></li>
-				<li><a href="#skills">Skills</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
+		<div class="topic">
+				<nav class="navbar">
+					<h2 class="logo">Portfo<span>lio</span></h2>
+					
+					<ul class="navbar-nav">
+						<li class="nav-item"><a class="nav-link" href="#content" data-animate="scrolling">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="#about" data-animate="scrolling">About Me</a></li>
+						<li class="nav-item"><a class="nav-link" href="#project" data-animate="scrolling">Project</a></li>
+						<li class="nav-item"><a class="nav-link" href="#skills" data-animate="scrolling">Skills</a></li>
+						<li class="nav-item"><a class="nav-link" href="#contact" data-animate="scrolling">Contact</a></li>
+					</ul>
+				</nav>
 
-		<div class="content">
-			<h4>Hi, Everyone I'm</h4>
-			<h1>Titaree <span>Jumnongnusorn</span></h1>
-			<h3>Student at Thammasat University</h3>
-		</div>
-	</div>
-
-	<!----About section start---->
-	<section class="about" id="about">
-		<div class="main">
-			<img src="../img/pic.png">
-			<div class="about-text">
-				<h2>About Me</h2>
-				<h5>Developer <span>& Designer</span></h5>
-				<p>I am a front-end web developer.</p>
-				<h5>Education</h5>
-				<p>
-					Bachelor Degree : 
-					Computer Science, Thammasat University 2020 - now (GPA 3.46)
-				</p>
-				<p>
-					High School Diploma : 
-					Science - Math and Technology Program, Princess Sirindhorn's College 2014 - 2019 (GPA. 3.91)
-				</p>
+			<div class="content">
+				<h4>Hi, Everyone I'm</h4>
+				<h1>Titaree <span>Jumnongnusorn</span></h1>
+				<h3>Student at Thammasat University</h3> <br><br>
 				
 			</div>
 		</div>
-	</section>
 
-	<!-----project section start----------->
-	<div class="project" id="project">
-		<div class="title">
-			<h2>Project</h2>
-		</div>
+		<!----About section start---->
+		<section class="about" id="about">
+			<div class="main">
+				<img src="img/pic.png">
+				<div class="about-text">
+					<h2>About Me</h2>
+					<p>I am a Computer science student during my studies. I learned many skills. problem-solving.
+					I always like learning new things. And I have a passion for coding.
+					My language c c++ java html css javascript and python</p>
+					
+					<h5>Education</h5>
+					<p>
+						Bachelor Degree : <br>
+						Computer Science, Thammasat University <br> 2020 - now (GPA 3.46)
+					</p>
+					<p>
+						High School Diploma : <br>
+						Science - Math and Technology Program, <br> Princess Sirindhorn's College 2014 - 2019 (GPA. 3.91)
+					</p>
 
-		<div class="box">
-			<div class="card">
-				<i class="fas fa-comments"></i>
-				<h5>PR CSTU   | 2020 - Present</h5>
-				<h6>graphic design & content creator</h6>
-				<div class="pra">
-					<p>&#8226; Design artwork in terms of awareness content. <br>
-						&#8226; Design artwork for sale content to promote this field of study. <br>
-						&#8226; Write captions that will be posted along with artwork content.<br></p>
+					<h5>My <span>Interest</span></h5>
+					<button class="btn green">Frontend</button>
+					<button class="btn green">Backend (NodeJS)</button>
+					<button class="btn green">React Framwork</button> <br>
+					<button class="btn green">Rest API</button>
+					<button class="btn green">Mobile Development</button>
+					<button class="btn green">Graphic Design</button>
+					<button class="btn green">Data Analysis (Python)</button>
+				</div>
+
+			</div>
+		</section>
+		<!-----about me section end----------->
+
+		<!-----project section start----------->
+		<div class="project" id="project">
+			<div class="title">
+				<h2>Project</h2>
+			</div>
+
+			<div class="box">
+				<div class="slideshow-container">
+
+					<div class="mySlides fade">
+					  <img src="img/img1.png" style="max-width: 500px; max-height: 200px;">
+					</div>
+					
+					<div class="mySlides fade">
+					  <img src="img/img2.png" style="max-width: 500px; max-height: 200px;">
+					</div>
+
+					<div class="mySlides fade">
+						<img src="img/img3.png" style="max-width: 500px; max-height: 200px;">
+					</div>
+
+					<div style="text-align:center">
+						<span class="dot"></span> 
+						<span class="dot"></span> 
+						<span class="dot"></span> 
+					</div>
+				</div>
+				<div class="grid">
+					<h4>PR CSTU | 2020 - Present <br> Graphic & Content Creator</h4><br>
+                    <div class="pra">
+                        &#8226; Design artwork in terms of awareness content.<br>
+                        &#8226; Design artwork for sale content to promote this field of study. <br>
+                        &#8226; Write captions that will be posted along with artwork content.<br>
+                    </div>
 				</div>
 			</div>
 
-			<div class="card">
-				<i class="fas fa-stethoscope"></i>
-				<h5>MEDICAL ASR CORPUS <br> Text Segment  |  2021 </h5>
-				<div class="pra">
-					<p>&#8226; The doctor's diagnosis was transcribed and the punctuation was separated according to the characters <br>
-						&#8226; Using the Parr program to transcribe. <br>
-						&#8226; Use python to divide and check the punctuation of words. <br></p>
+			<div class="box">
+				<div class="grid">
+					<h4>MEDICAL ASR CORPUS <br> Text Segment  |  2021</h4><br>
+                    <div class="pra">
+						&#8226; The doctor's diagnosis was transcribed <br> and the punctuation was separated according to the characters <br>
+						&#8226; Using the Praat program to transcribe. <br>
+						&#8226; Use python to divide and check the punctuation of words. <br>
+                    </div>
+				</div>
+				
+				<div class="slideshow-container">
+					<div class="mySlides fade">
+					  <img src="img/img6.png" style="max-width: 500px;
+					  max-height: 200px;">
+					</div>
+					
+					<div class="mySlides fade">
+					  <img src="img/img7.jpeg" style="max-width: 500px;
+					  max-height: 200px;">
+					</div>
 
+					<div style="text-align:center">
+						<span class="dot"></span> 
+						<span class="dot"></span> 
+					</div>
 				</div>
 			</div>
 
-			<div class="card">
-				<i class="fas fa-headphones"></i>
-				<h5>Urbansound Project  <br> | Present</h5>
-				<div class="pra">
-					<p>&#8226; It's a project about noise that comes from things around us. <br> 
+			<div class="box">
+				<div class="slideshow-container">
+					<div class="mySlides fade">
+					  <img src="img/img5.png" style="max-width: 200px;
+					  max-height: 350px;">
+					</div>
+					
+					<div class="mySlides fade">
+					  <img src="img/img4.png" style="max-width: 200px;
+					  max-height: 350px;">
+					</div>
+
+					<div style="text-align:center">
+						<span class="dot"></span> 
+						<span class="dot"></span> 
+					</div>
+				</div>
+					
+				<div class="grid">
+					<h4>Urbansound Project | Present</h4><br>
+                    <div class="pra">
+						&#8226; It's a project about noise that comes from things around us. <br> 
 						&#8226; Create a Line Chatbot collecting information from users. <br> 
-						&#8226; To take the data to create a Noise Map that indicates the level of noise in any area .<br> 
-						&#8226; Use an App Script to write a Webhook.<br> </p>
-
-					<!-- <p style="text-align: center;">
-						<a class="button" href="#">Read More</a>
-					</p> -->
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-----skills section start----------->
-	<div class="skills" id="skills">
-		<div class="title-skills">
-			<h2>Skills</h2>
-		</div>
-
-		<div class="box-skills">
-			<div class="card-skills">
-				<h4>Technical :</h4>
-				<div class="pra-skills">
-					<p>
-						   - C/C++  |  Java  |  Python <br>
-						   - HTML  |  CSS  | JavaScript <br>
-						   - PHP  |  MySQL  |  MongoDB <br>
-						   - Bootstrap | React <br>
-						   - AWS  |  Docker | Git <br></p>
-
-					<p>
-				</div>
-				<h4>LANGUAGE :</h4>
-				<div class="pra-skills">
-					<p>
-						Thai (Native), English (Intermediate) <br></p>
-					<p>
+						&#8226; To take the data to create a Noise Map <br>      that indicates the level of noise  in any area .<br> 
+						&#8226; Use an App Script to write a Webhook.<br>
+                    </div>
 				</div>
 			</div>
 
-			<div class="card-skills">
-				<h4>TOOL & SOFTWARE :</h4>
-				<div class="pra-skills">
-					<p>
-						   - Adobe Photoshop  <br>
-						   - Figma <br>
-						   - Microsoft Office <br> </p>
+			<div class="box">
+				<div class="row">
+					<div class="cards pra column">
+						<div class="card card-1">
+							<h2 class="card__title">Development</h2>
+							<p class="card__apply">
+								<li>Web Register of Thammasat University <br> (TU Api) (HTML, CSS, JavaScript and NodeJS)</li>
+								<li>Courier Management System <br> (Fullstack) (PHP Database, JavaScript and NodeJS)</li>
+								<li>BakeAtDome, POS System <br> (React, MongoDB and NodeJS)</li>
+								<li>Qiuck Quiz, Simple web based application. <br> This application can be used to test <br> the knowledge of the player <br> (MySQL, PHP Database and JavaScript ) </li>
+							</p>
+						</div>
 
+						<div class="card card-2">
+							<h2 class="card__title">Software Engineering</h2>
+							<p class="card__apply">
+								<li>Deployment Web Application, POS System <br> (React, MongoDB and NodeJS)</li>
+								<li>Cryptography RSA, Signature (Shell script, C)</li>
+								<li>Password validate (Python)</li>
+								<li>AI Chatbot (Python)</li>
+								<li>Line API Chatbot (Webhook)</li>
+								<li>Socket programming (Python)</li>
+							</p>		
+						</div>
+							
+					</div>		
 				</div>
-				<h4>softskill :</h4>
-				<div class="pra-skills">
-					<p>
-						Decision making<br>
-						Problem-solving<br>
-						Communication and Teamwork<br>
-						Time Management<br>
+			</div>
+			
+			<div class="box">
+				<div class="row">
+					<div class="cards pra column">
+
+						<div class="card card-3">
+							<h2 class="card__title">Android</h2>
+							<p class="card__apply">
+								<li>Zodiac Application (Java on Android Studio)</li>
+								<li>Bmi Calculator Application (Java on Android Studio)</li>
+							</p>
+
+							<h2 class="card__title">Data Analysis</h2>
+							<p class="card__apply">
+								<li>Data Visualization (Tableau)</li>
+								<li>CountryNumber, Replace 0 to +66 from excel (Python)</li>
+							</p>
+						</div>
+
+						<div class="card card-4">
+							<h2 class="card__title">Software Testing</h2>
+							<p class="card__apply">
+								<li>End to End testing (Protractor, Jasmine on NodeJS)</li>
+								<li>Coverage testing (Istanbul, chai on NodeJS)</li>
+								<li>Api backend testing (Jest, Supertest on NodeJS)</li>
+							</p>
+						</div>
 						
-						Graphic & UX/UI design <br> </p>
+						
+					</div>	
+				</div>
+			</div>		
+		</div>
+		<!-----project section end----------->
 
+		<!-----skills section start----------->
+		<div class="skills" id="skills">
+			<div class="title-skills">
+				<h2>Skills</h2>
+			</div>
+			<div class="box-skills">
+				<div class="card-skills">
+					<div class="flip-card">
+						<div class="flip-card-inner">
+							<div class="flip-card-front">
+								<h3>TECHNICAL</h3>
+							</div>
+							<div class="flip-card-back">
+								<p style="margin-top: 60px;">
+									<a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg" width="36" height="36" alt="C" /></a>
+									<a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a>
+									<a href="https://www.php.net/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/php-colored.svg" width="36" height="36" alt="PHP" /></a>
+									<a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>
+									<br><a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" width="36" height="36" alt="Java" /></a>
+									<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>
+									<a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a>
+									<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
+									<a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg" width="36" height="36" alt="Bootstrap" /></a>
+
+									<br><a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="36" height="36" alt="MongoDB" /></a>
+									<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a>
+									<a href="https://flask.palletsprojects.com/en/2.0.x/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flask-colored.svg" width="36" height="36" alt="Flask" /></a>
+									<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" height="42" width="54" alt="jest logo"  />
+									<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png" alt="aws" height="42" width="42" />
+									<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="42" height="52" />	
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="card-skills">
+					<div class="flip-card">
+						<div class="flip-card-inner">
+						  <div class="flip-card-front">
+							<h3>TOOL & SOFTWARE</h3>
+						  </div>
+
+						  <div class="pra-skills flip-card-back">
+							<p>
+								<a href="https://www.adobe.com/uk/products/photoshop.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/photoshop-colored.svg" width="36" height="36" alt="Photoshop" /></a>
+								<a href="adobe.com/uk/products/illustrator.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/illustrator-colored.svg" width="36" height="36" alt="Illustrator" /></a>
+								<a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
+								<a href="https://icons8.com/icon/6kZdxe7t8OL1/microsoft-office-2019"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAClUlEQVR4nO2ZQWgTQRSGn7aWIgQp7SHZ9xKj4KWgIHqoBytqQA9idgM568VeFQ8i9OBJKXjRo4hXhYggJXlT24IHexEKUigS0bYo3Q1F6kFLLTa4shVtutRkJ93dbGQ+mOvj/2Zehs0bAIVCEQhC004IolEm+saIy6/6+z7Mn+u6sZiFJESZYjy+XyA+YaKfgsiuXZMHE/bHCx22qcOcpcP9xRxk7CHYA1HgeW9vjInuMOJ3d/Da9fpoj20ZsLl0WDYNKFg6DC3lIR568AJARwnxikCs1Av+9xQOJLYKGJvL1KFq6TBVycLlUE6GNe2sIJrxErx2/UvA2iojFi5BdyDBxxEPCaKCbHAZAet3ew37GryYSvUIohGBuNZseCkBA8q+hWciw7kOdxKcEWc5mRz2KmDqUPUlvEgmTwqiapOh55nodono8J96Eidg+yLARBOSoS0museIAzbALne90AUE0deGoYlWGPFhCfGMc7XWq9cKAbvBjr8f0zTPnwiRExgjOi9TL3ICo4nE3rYWAEmUgCzqBFyoFpJFtZAL1UKyqBZyoVpIlgZfoj/a+gQYcbp9BRDXhKZlIi/ARJ/cbcOIjxnxSDP1QhcoEg06/7qYaMkZqzAi7aRe6AJ+EwkBoWkZRlwIeLBlBybgzHuaHXB5DW8asB6YgED8EoLA28AEGPHado8YvraQDtchSDZuJ6KyTPjxtOZt93V4OpuHLggaZ6QiEO8y0boXgan+vno7vuq8C1g65OxbsBvC5EUqdUwQvWkkUD7d7d7pOcuABxUD8p8vQgxayUuATka8KRBXtws/fXyf88NcsXSYMHW4WslCGqLIxgsO4iNGNJ3B8GQ6/m5mIPbMysGgfQo6W51Pofif+AVu8GECg1gp8AAAAABJRU5ErkJggg=="></a>
+								<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADv0lEQVR4nO2ZvWsUQRjGZ97VJogfaSSFQbC5bWyUYGMRsbWwsBObgIWFMWBmLid4gtGZBNTOzn9ABEHZGMzsLRo/Ck935hRUSBELQQIKIrkLEjMyG8479T5mde8L7oEpd+f57b4z88wMQn311VfH5FBxDKhY2sZfPXMfFA+jXhIQMQbUXwfqayctNty5ona94suUVzyFshpQNwuoGAcqNoz5cosAKu21ATmQ11tRd0ljTMRstXGoDRC11Nzqsuutjh+4pwc67RyhbLAFE3GrlnmoA/CrecWV1NzqBNIad8j8vQFMhFfPPDQDqIBk2m8+vbgLiHjSyDzYA3xsr/nMoyGgvmpmHmwB5oq6febP+/vMHG9jHloCYAYMD0cQC/fGNj8ZHAQiVmzNQ+IA194MYq4C4EoDU+uYyWl0+7Zj86gzKUaB+F/jmIdEAfibYeDybWS+qhkgNJ0famieiuNARCmWeSJKkM6dTgwAuFr803ylyU8Ok0dqPjeZOwPE/xHvy4t36LzYb55PDoDJz/UBNksKmLxYnVcgLWjcksFE3EF0YUf5HYkBYC4vNwQolxSTD9GVwm5MxPWY5tdMFvqzXzexMaA1xkxdsoEAJktwYTFOySwjIkZqdesmPY0Cl2eByx/NIZSG7HMNNNe4ZKh/F40HO+v157ZiIQMWngSmvlv9jct5Demg1lf/bsZIs77cVq3EDiscBS6/WUFcDTVkHlUDfEAkOGTTj9vSKMHDEeDyixWEadnnGhP/PpqYH7Ttwm0pABEjkAm+RF/YEgKz8L5Z0TsO4KQXjgIR36KSyAQarryyhgAuPyCuOldCQMXJaBBWD8opA5G3hzCTACu0fxADyZ2tGw3Suc1Zx/pPRAvfXXQjbMc0qjGm/qXmi5KBeFGKAwFMLUcRvZUAmPrTVlmG+g/RlNiNubweD0KuAVOtixJA/c9NzK8DFRdRNlsJc6xAY0FsxvM7iOeTD3NA/cf1s7v/yaF+7Tg9o85YRY/f/8Y7NFtINk4jujAMRLz9O/76gdmkN3rUYeFx4DLeuOCyBKyQ3IYm0sT8oDFcLhkzLtAJyy3lTDgKXH2NW1Ju8uuAxmZzji7M70FxNVM4CFytdBjgPzX7eh8wudS7AEbT+SFgUvUugBEr7AKuniQC4LX7aLGsbH4Ac+n9L0DKK051BiCCCLZgrm79E4AXHa+f69zxevWBAZeztgCprrrgqJLJQsDkRgOAbr1iqgi4HIsOybjSDpe9dclXlsPkMeDq/fabS0977pq1r75Qd+gnbk39qO0MuGMAAAAASUVORK5CYII=">
+							<p>
+						  </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="card-skills">
+					<div class="flip-card">
+						<div class="flip-card-inner">
+						  <div class="flip-card-front">
+							<h3>LANGUAGE</h3>
+						  </div>
+
+						  <div class="pra-skills flip-card-back">
+							<p>
+								Thai (Native)<br> English (Intermediate) </p>
+							<p>
+						  </div>
+						</div>
+					</div>	
 				</div>
 			</div>
 		</div>
-	</div>
+		<!-----skills section end----------->
 
-
-	<!------footer start--------->
-	<div class="contact" id="contact">
-		<h1 class="edu">Contact</h1>
-		<br>
-		<div class="info">
-			<div class="blue">Address</div>
-			<span>Chatuchak, </span>
-			<span>Bangkok 10900</span><br><br>
-			<div class="blue">Phone</div>
-			<span>(+66) 84 619 6459</span><br><br>
-			<div class="social">
-				<a href="https://github.com/gaillttr"><i class="fab fa-github"></i></a>
+		<!------footer section start--------->
+		<div class="contact" id="contact">
+			<h1 class="con">Contact</h1><br>
+			<div class="info">
+				<div class="blue">Address</div>
+				<span>Chatuchak, </span>
+				<span>Bangkok 10900</span><br><br>
+				<div class="blue">Phone</div>
+				<span>(+66) 84 619 6459</span><br><br>
+				<div class="blue">Email</div>
+				<span>titaree.jum@dome.tu.ac.th</span><br>
+				<div class="social">
+					<a href="https://github.com/gaillttr"><i class="fab fa-github"></i></a>
+				</div>
 			</div>
 		</div>
-	</div>
 
-	<br><br><hr>
-	<div class="footer">
-		<span><i>© 2023 Titaree Jumnongnusorn</i></span>
-	</div>
-</body>
+		<br><br><hr>
+		<div class="footer">
+			<span><i>© 2023 Titaree Jumnongnusorn</i></span>
+		</div>
+		<!------footer section end--------->
+
+		<!--  custom js file  -->
+		<script src="js/main.js"></script>
+	</body>
 </html>
