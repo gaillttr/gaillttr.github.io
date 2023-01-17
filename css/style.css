@@ -136,17 +136,12 @@ h4 {
 	border-radius: 20px;
 	padding: 14px 28px;
 	font-size: 16px;
-	cursor: pointer;
 	margin-bottom: 15px;
 } 
 /* btn Green */
 .green {
 	border-color: #3d9b9b;
 	color: #3d9b9b;
-} 
-.green:hover {
-	background-color: #3d9b9b;
-	color: white;
 }
 
 /* project section */
