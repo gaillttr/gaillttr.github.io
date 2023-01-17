@@ -183,7 +183,8 @@ h4 {
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
-  top: 50%;
+  top: 50%;	
+  position: absolute;
   width: auto;
   padding: 16px;
   margin-top: -22px;
