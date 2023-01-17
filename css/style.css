@@ -171,7 +171,7 @@ h4 {
 	vertical-align: middle;
 }
 
-.mySlides1, .mySlides2 {display: none}
+.mySlides1, .mySlides2 .mySlides3 {display: none}
 
 /* Slideshow container */
 .slideshow-container {
