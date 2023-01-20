@@ -22,6 +22,7 @@
 					<ul class="navbar-nav">
 						<li class="nav-item"><a class="nav-link" href="#home" data-animate="scrolling">Home</a></li>
 						<li class="nav-item"><a class="nav-link" href="#about" data-animate="scrolling">About Me</a></li>
+						<li class="nav-item"><a class="nav-link" href="#education" data-animate="scrolling">Education</a></li>
 						<li class="nav-item"><a class="nav-link" href="#project" data-animate="scrolling">Project</a></li>
 						<li class="nav-item"><a class="nav-link" href="#skills" data-animate="scrolling">Skills</a></li>
 						<li class="nav-item"><a class="nav-link" href="#contact" data-animate="scrolling">Contact</a></li>
@@ -43,31 +44,69 @@
 				<div class="about-text">
 					<h2>About Me</h2>
 					<p>I am a computer science student during my studies. I learned many skills: problem-solving, decision making, communication and teamwork.
-					I always like learning new things. And I have a passion for coding.</p>
-					
-					<h5>Education</h5>
-					<p>
-						Bachelor Degree : <br>
-						Computer Science, Thammasat University <br> May 2020 - present (GPA 3.46)
-					</p>
-					<p>
-						High School Diploma : <br>
-						Science - Math and Technology Program, <br> Princess Sirindhorn's College 2014 - 2019 (GPA. 3.91)
-					</p>
+					I always like learning new things. And I have a passion for coding.</p>				
 
 					<h5>My <span>Interest</span></h5>
-					<button class="btn green">Frontend</button>
-					<button class="btn green">Backend (NodeJS)</button>
-					<button class="btn green">React Framwork</button> <br>
-					<button class="btn green">Rest API</button>
-					<button class="btn green">Mobile Development</button>
-					<button class="btn green">Graphic Design</button>
-					<button class="btn green">Data Analysis (Python)</button>
+					<a class="btn">Frontend</a>
+					<button class="btn">Backend (NodeJS)</button>
+					<button class="btn">React Framwork</button> <br>
+					<button class="btn">Rest API</button>
+					<button class="btn">Mobile Development</button>
+					<button class="btn">Graphic Design</button>
+					<button class="btn">Data Analysis (Python)</button>
 				</div>
 
 			</div>
 		</section>
 		<!-----about me section end----------->
+		<hr align="center" size="1px" color="#f1f1f1">
+		
+		<section class="education" id="education">
+			<div class="main-education">
+				<h2>Education</h2>
+				<div class="row">
+					<div class="column">
+						<div class="education-text">
+							
+							<p>
+								<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+								Bachelor Degree <br>
+								Computer Science, Thammasat University <br> May 2020 - present (GPA 3.46)<br><br>
+								<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+								High School Diploma <br>
+								Science - Math and Technology Program, <br> Princess Sirindhorn's College 2014 - 2019 (GPA. 3.91)
+							</p>
+							
+						</div>
+						
+					</div>
+					<div class="column">
+						<div class="education-text">
+							<p>
+								<i class="fa fa-book" aria-hidden="true"></i>
+								Relevant Coursework <br>
+								- Algorithm and Data Structures<br>
+								- Software Engineering and Testing<br>
+								- Network and Security <br>
+								- Software Process and Quality Assurance<br>
+								- Web Programming<br>
+								- Computer Vision<br>
+								- Artificial Intelligence<br>
+							</p>
+
+						</div>
+					</div>
+				</div>
+				<div class="download">
+					<a href="Transcript_Titaree.pdf" class="btn-edu" target="_blank" rel="noreferrer">Download Transcript</a>
+					<a href="Resume_Titaree.pdf" class="btn-edu" target="_blank" rel="noreferrer">Download Resume</a>
+
+				</div>
+				
+			</div>
+			
+		</section>
+
 		<hr align="center" size="1px" color="#f1f1f1">
 		<!-----project section start----------->
 		<div class="project" id="project">
@@ -75,22 +114,12 @@
 				<h2>Project</h2>
 			</div>
 
-			<div class="box">
+			<!-- <div class="box">
 				<div class="slideshow-container">
-						<div class="mySlides1">
+						<div>
 						  <img src="img/img1.png" style="width:100%">
 						</div>
 					  
-						<div class="mySlides1">
-						  <img src="img/img2.png" style="width:100%">
-						</div>
-					  
-						<div class="mySlides1">
-						  <img src="img/img3.png" style="width:100%">
-						</div>
-					  
-						<a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-						<a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
 				</div>
 				<div class="grid">
 					<h4>PR CSTU | 2020 - Present <br> Graphic & Content Creator</h4><br>
@@ -130,7 +159,7 @@
 				<div class="grid">
 					<h4>Urbansound Project | Present</h4><br>
                     <div class="pra">
-						&#8226; It's a project about noise that comes from things around us. <br> 
+						&#8226; | Present It's a project about noise that comes from things around us. <br> 
 						&#8226; Create a Line Chatbot collecting information from users. <br> 
 						&#8226; To take the data to create a Noise Map <br>      that indicates the level of noise  in any area .<br> 
 						&#8226; Use an App Script to write a Webhook.<br>
@@ -198,7 +227,108 @@
 						
 					</div>	
 				</div>
-			</div>		
+			</div>	 -->
+				
+			<div class="container">
+				<div class="card-t">
+					<div class="face face1" style="background-image:url(img/img10.png)">
+						<div class="content-t">
+							<h3>BakeAtDome</h3>
+						</div>
+					</div>
+					<div class="face face2">
+						<div class="content-t">
+							<p>
+								&#9679; is a POS (point-of-sale) system <br>
+								&#9679; Tools Used:  MongoDB, Express, React and NodeJs.
+							</p>
+								<a href="https://github.com/suteye/BakeAtDome" target="_blank" rel="noreferrer">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div class="card-t">
+					<div class="face face1" style="background-image:url(img/img9.png)">
+						<div class="content-t">
+							<h3>Courier Management System</h3>
+						</div>
+					</div>
+					<div class="face face2">
+						<div class="content-t">
+							<p>
+								The system is used for daily activities. 
+								It is very difficult to do this process manually. <br>
+								&#9679; Tools Used: PHP and MySql
+							</p>
+								<a href="https://github.com/gaillttr/Courier-Management-System" target="_blank" rel="noreferrer">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div class="card-t">
+					<div class="face face1" style="background-image:url(img/img8.png)">
+						<div class="content-t">
+							<h3>QuicklyQuiz</h3>
+						</div>
+					</div>
+					<div class="face face2">
+						<div class="content-t">
+							<p>
+								is an online quiz platform that has been redesigned and includes more features. <br>
+								&#9679; Tools Used:<br> HTML, CSS, PHP, MySql
+							</p>
+								<a href="https://github.com/gaillttr/QuicklyQuiz" target="_blank" rel="noreferrer">Read More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="card-t">
+					<div class="face face1" style="background-image:url(img/img1.png)">
+						<div class="content-t">
+							<h3>PR CSTU</h3>
+						</div>
+					</div>
+					<div class="face face2">
+						<div class="content-t">
+							<p>
+								Graphic & Content Creator <br> 2020 - Present <br>
+								&#9679; Design artwork in terms of awareness or sale content to promote this field of study.<br>
+								
+							</p>
+								<a href="https://www.facebook.com/CSTUadmissioncenter" target="_blank" rel="noreferrer">Read More</a>
+						</div>
+						
+					</div>
+				</div>
+				<div class="card-t">
+					<div class="face face1" style="background-image:url(img/img4.png)">
+						<div class="content-t">
+							<h3>Urbansound Project</h3>
+						</div>
+					</div>
+					<div class="face face2">
+						<div class="content-t">
+							<p>
+								It's a project about noise that comes from things around us.<br> 
+								&#9679; Create a Line Chatbot to collecting information from users that indicates the level of noise in any area.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="card-t">
+					<div class="face face1" style="background-image:url(img/img7.jpeg)">
+						<div class="content-t">
+							<h3>Medical ASR Corpus</h3>
+						</div>
+					</div>
+					<div class="face face2">
+						<div class="content-t">
+							<p>Text Segment | Oct 2021 <br>
+								&#9679; The doctor's diagnosis was transcribed and the punctuation was separated according to the characters
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<!-----project section end----------->
 		<hr align="center" size="1px" color="#f1f1f1">
@@ -285,12 +415,15 @@
 				<span>Chatuchak, </span>
 				<span>Bangkok 10900</span><br><br>
 				<div class="blue">Phone</div>
-				<span>(+66) 84 619 6459</span><br><br>
+				<span>(+66) 82 619 6459</span><br><br>
 				<div class="blue">Email</div>
-				<span>titaree.jum@dome.tu.ac.th</span><br>
+				<span>titaree.jum@gmail.com</span><br>
 				<div class="social">
 					<a href="https://github.com/gaillttr"  target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a>
+					<a href="https://www.linkedin.com/in/titaree-jumnongnusorn-273914262/"  target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a>
+					
 				</div>
+				
 			</div>
 		</div>
 
